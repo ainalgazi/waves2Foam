@@ -49,7 +49,7 @@ Additional information
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "Time.T.H"
 #include "fvMesh.H"
 #include "volFields.H"
 #include "setWaveField.H"
