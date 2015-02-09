@@ -23,14 +23,14 @@ export WAVES_GSL_LIB=$FOAM_USER_LIBBIN
 ### OTHER STATIC ENVIRONMENTAL VARIABLES
 ## Version number
 # The "-0" is for zero-padding the version number, to accept differences between e.g. 2.1 and 2.1.1
-if [ `uname` = "Darwin" ]
-then
-    version=`echo $WM_PROJECT_VERSION"-0" | sed -e 's/\.x/-0/' -e 's/\./\'$'\n/g' -e 's/-/\'$'\n/g' | grep "[0-9]" | head -3 | tr -d '\n'`
-else
-    version=`echo $WM_PROJECT_VERSION"-0" | sed -e 's/\.x/-0/' -e 's/\./\n/g' -e 's/-/\n/g' | grep "[0-9]" | head -3 | tr -d '\n'`
-fi
+#if [ `uname` = "Darwin" ]
+#then
+#    version=`echo $WM_PROJECT_VERSION"-0" | sed -e 's/\.x/-0/' -e 's/\./\'$'\n/g' -e 's/-/\'$'\n/g' | grep "[0-9]" | head -3 | tr -d '\n'`
+#else
+#    version=`echo $WM_PROJECT_VERSION"-0" | sed -e 's/\.x/-0/' -e 's/\./\n/g' -e 's/-/\n/g' | grep "[0-9]" | head -3 | tr -d '\n'`
+#fi
 
-export WM_PROJECT_VERSION_NUMBER=$version
+export WM_PROJECT_VERSION_NUMBER=211
 
 ## Easy navigation
 export WAVES_SRC=$WAVES_DIR/src
