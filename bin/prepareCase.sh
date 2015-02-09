@@ -3,6 +3,8 @@
 ### CLEAR THE 0 DIRECTORY
 (cd 0; rm -f *)
 
+mkdir 0
+
 . $PWD/../../../bin/bashrc noPrint
 
 ### COPY RELEVANT FIELDS
