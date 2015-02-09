@@ -74,7 +74,7 @@ do
     fi
 
     # Compile the solver
-    ( cd $WAVES_SOL/$solverName; wmake )
+    ( cd $WAVES_SOL/$solverName; wmake && wmakeVerifyExeDependencies . && wmake )
 done
 
 ## UTILITIES
@@ -97,7 +97,7 @@ do
     fi
 done
 
-( cd $WAVES_PRE  && wmake all )
+( cd $WAVES_PRE  && wmake all && wmakeVerifyExeDependencies . && wmake all )
 
 # Post-processing utilities
 echo ""
@@ -116,7 +116,7 @@ else
     ln -s -f $WAVES_POST/surfaceElevation/Make/options.220 $WAVES_POST/surfaceElevation/Make/options
 fi
 
-( cd $WAVES_POST && wmake all )
+( cd $WAVES_POST && wmake all && wmakeVerifyExeDependencies . && wmake all )
 
 echo ""
 echo "====================================="
