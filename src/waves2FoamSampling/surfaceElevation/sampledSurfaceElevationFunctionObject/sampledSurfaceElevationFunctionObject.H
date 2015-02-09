@@ -40,7 +40,7 @@ SourceFiles
 #define sampledSurfaceElevationFunctionObject_H
 
 #include "sampledSurfaceElevation.H"
-#include "OutputFilterFunctionObject.H"
+#include "OutputFilterFunctionObject.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

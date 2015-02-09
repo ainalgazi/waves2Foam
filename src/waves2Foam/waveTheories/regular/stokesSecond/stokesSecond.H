@@ -61,7 +61,7 @@ Author
 #define stokesSecond_H
 
 #include "waveTheory.H"
-#include "Switch.H"
+#include "Switch.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

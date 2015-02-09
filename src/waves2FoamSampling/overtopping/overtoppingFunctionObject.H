@@ -39,7 +39,7 @@ SourceFiles
 #define overtoppingFunctionObject_H
 
 #include "overtopping.H"
-#include "OutputFilterFunctionObject.H"
+#include "OutputFilterFunctionObject.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "porosityZones.H"
-#include "Time.H"
+#include "Time.T.H"
 #include "volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

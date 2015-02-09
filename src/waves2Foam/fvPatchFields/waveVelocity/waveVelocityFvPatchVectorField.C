@@ -26,7 +26,7 @@ License
 
 #include "waveVelocityFvPatchVectorField.H"
 #include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "Time.T.H"
 #include "dimensionedVector.H"
 #include "volMesh.H"
 
