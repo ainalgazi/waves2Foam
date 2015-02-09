@@ -51,7 +51,7 @@ You need to have [MSys+Git](http://msysgit.github.io/) installed (already instal
      git checkout blueCFD-2.1-2
      ```
 
-   4. Get and build GSL by running the following commands:
+  4. Get and build GSL by running the following commands:
 
      ```
      cd gsl
@@ -60,19 +60,19 @@ You need to have [MSys+Git](http://msysgit.github.io/) installed (already instal
      
      It will take a considerable time to build GSL. You can inspect the contents of the file `log.make` while the script is running, to see how it's coming along.
      
-   5. Go back to the main folder `waves2Foam`:
+  5. Go back to the main folder `waves2Foam`:
    
      ```
      cd ..
      ```
 
-   6. Build all of the libraries and utilities by running:
+  6. Build all of the libraries and utilities by running:
 
      ```
      ./Allwmake
      ```
 
-   7. The tutorials are available at the folder `tutorials`.
+  7. The tutorials are available at the folder `tutorials`.
 
 
 Using Zip
@@ -99,14 +99,14 @@ Using Zip
      wget https://github.com/blueCFD/waves2Foam/archive/blueCFD-2.1-2.zip
      ```
 
-   3. Unzip the respective file and go into the respective folder, for example:
+  3. Unzip the respective file and go into the respective folder, for example:
 
      ```
      unzip blueCFD-Core-2.3-1.zip
      cd waves2Foam-blueCFD-Core-2.3-1
      ```
 
-   4. Get and build GSL by running the following commands:
+  4. Get and build GSL by running the following commands:
 
      ```
      cd gsl
@@ -115,19 +115,19 @@ Using Zip
      
      It will take a considerable time to build GSL. You can inspect the contents of the file `log.make` while the script is running, to see how it's coming along.
      
-   5. Go back to the main folder `waves2Foam`:
+  5. Go back to the main folder `waves2Foam`:
    
      ```
      cd ..
      ```
 
-   6. Build all of the libraries and utilities by running:
+  6. Build all of the libraries and utilities by running:
 
      ```
      ./Allwmake
      ```
 
-   7. The tutorials are available at the folder `tutorials`.
+  7. The tutorials are available at the folder `tutorials`.
 
 
 
