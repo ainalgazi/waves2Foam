@@ -11,6 +11,7 @@ EXE_INC = \
     -I$(WAVES_GSL_INCLUDE)
 
 EXE_LIBS = \
+    -linterfaceProperties \
     -ltwoPhaseInterfaceProperties \
     -lincompressibleTransportModels \
     -lincompressibleTurbulenceModel \
