@@ -1,0 +1,17 @@
+#!/bin/bash
+
+GSLVERSION=1.16
+GSLPACKAGE=gsl-${GSLVERSION}.tar.gz
+
+if [ ! -e $GSLPACKAGE ]; then
+
+  wget http://ftpmirror.gnu.org/gsl/$GSLPACKAGE
+  tar -xf $GSLPACKAGE
+
+fi
+
+cd gsl-${GSLVERSION}
+
+./configure --prefix=$WM_PROJECT_USER_DIR/platforms/$WM_OPTIONS/
+make
+make install
