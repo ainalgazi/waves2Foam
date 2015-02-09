@@ -93,14 +93,11 @@ int main(int argc, char *argv[])
         {
             #include "alphaControls.H"
 
-            if (pimple.firstIter() || alphaOuterCorrectors)
-            {
-                twoPhaseProperties.correct();
+            twoPhaseProperties.correct();
 
-                #include "alphaEqnSubCycle.H"
-                relaxing.correct();
-                interface.correct();
-            }
+            #include "alphaEqnSubCycle.H"
+            relaxing.correct();
+            interface.correct();
 
             #include "UEqn.H"
 
